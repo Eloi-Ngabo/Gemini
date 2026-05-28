@@ -7,7 +7,7 @@
 
 import {
   GoogleGenAI,
-    ThinkingLevel,
+  ThinkingLevel, 
 
 } from '@google/genai';
 
@@ -16,7 +16,7 @@ async function main(prompt) {
 
   
     
-    apiKey: process.env.REACT_APP_GEMINI_API_KEY
+    apiKey: process.env.REACT_APP_GEMINI_API_KEY,
 
   });
   const tools = [
